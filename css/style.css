@@ -1,0 +1,135 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  line-height: 2;
+
+}
+
+h1 {
+  font-size: 5.625rem;
+  /*90px we want but 16px =100% 90 div 16=5.625 */
+  font-family: 'Sacramento', cursive;
+  color: #66BFBF;
+  margin: 0;
+}
+
+h2 {
+  color: #66BFBF;
+  margin-top: 0px;
+  font-weight: normal;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+.parag{
+  color: #40514E;
+  line-height: 2;
+  margin-left: 18.75rem;
+  margin-right: 18.75rem;
+}
+.imgcode
+{
+
+    border-radius: 50%;
+    width: 25%;
+
+}
+.profileimg{
+  margin-top: 10px;
+  border-radius: 50%;
+  margin-top: 50px;
+  width: 25%;
+}
+.imgcode1{
+border-radius: 50%;
+width: 25%;
+
+}
+.skills{
+  margin: 10px auto 10px auto;
+  width: 50%;
+  line-height: 2;
+}
+.skills-row{
+  text-align: right;
+}
+
+hr {
+  border-style: none;
+  border-bottom-style: dotted;
+  border-bottom-color: #EAF6F6;
+  padding: 10px;
+  border-width: 10px;
+  width: 5%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.footer-link {
+  color: #11999E;
+}
+
+.btn {
+  color: #11999E;
+  text-decoration: none;
+}
+
+.top-container {
+  background-color: #e4f9f5;
+  position: relative;
+  padding-top: 100px;
+  /*border: solid 10px;
+  height: 200px;
+  width: 200px;
+  padding: 20px;*/
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+.bottom-container{
+  background-color:#66BFBF;
+  padding: 40px 0 40px 0;
+  text-decoration: none;
+}
+.copyright
+{
+  color: #EAF6F6;
+  margin-bottom: 0px;
+}
+.footer-link
+{
+margin-right: 60px;
+text-decoration: none;
+}
+.contact-me{
+  margin-bottom: 80px;
+
+}
+@keyframes identifier {
+  0%   {background-image: url(img/cloud.png);}
+ 25%  {background-image: url(img/chillies.png);}
+ 75%  {background-image: url(img/cloud.png);}
+ 100% {background-image: url(img/computer.png);}
+}
+.ani{
+
+  width: 100px;
+  height: 100px;
+  position: relative;
+
+  animation-name: example;
+  animation-duration: 4s;
+}
